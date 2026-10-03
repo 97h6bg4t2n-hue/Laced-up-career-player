@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no" />
+  <meta name="theme-color" content="#07131f" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Career Story" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="assets/icons/icon-180.png" />
+  <title>Career Story — Player Career</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/creator.css" />
+  <link rel="stylesheet" href="css/player-model.css" />
+  <link rel="stylesheet" href="css/game.css" />
+</head>
+<body>
+  <div id="orientation-lock" class="orientation-lock" aria-hidden="true">
+    <div class="rotate-card">
+      <div class="rotate-phone">↻</div>
+      <h1>Rotate your iPhone</h1>
+      <p>This career is designed for landscape play.</p>
+    </div>
+  </div>
+
+  <div id="app" class="app-shell">
+    <div id="screen" class="screen-host"></div>
+    <div id="toast-layer" class="toast-layer" aria-live="polite"></div>
+    <div id="modal-layer" class="modal-layer" aria-hidden="true"></div>
+  </div>
+
+  <script defer src="data/countries.js"></script>
+  <script defer src="data/clubs.js"></script>
+  <script defer src="data/names.js"></script>
+  <script defer src="js/utils.js"></script>
+  <script defer src="js/save-system.js"></script>
+  <script defer src="js/player-model.js"></script>
+  <script defer src="js/career.js"></script>
+  <script defer src="js/match-engine.js"></script>
+  <script defer src="js/ui.js"></script>
+  <script defer src="js/router.js"></script>
+  <script defer src="js/app.js"></script>
+</body>
+</html>
